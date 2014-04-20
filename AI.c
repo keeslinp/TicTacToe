@@ -27,8 +27,8 @@ int victory_check(char board[3][3])
 }
 int max(char board[3][3])
 {
-	int max_score = -2;
-	int max_choice = 0;
+	int max_score = -1;
+	int max_choice = -1;
 	for(int row=0;row<3;row++)
 	{
 		for(int col =0 ; col<3;col++)
